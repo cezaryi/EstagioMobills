@@ -14,6 +14,10 @@ function Header() {
               <nav>
                  <img src={mobillslogo} alt = "Mobills"/>
                   <Link to="/dashboard">DASHBOARD</Link>
+                  
+                  <a class="new-menu-item" href="">RECEITAS</a>
+                  
+                  <a class="new-menu-item" href="">DESPESAS</a>
               </nav>
 
               <aside>
