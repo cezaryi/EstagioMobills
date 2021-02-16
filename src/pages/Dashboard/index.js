@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container, Transacoes, Botoes } from './styles';
 
@@ -53,7 +54,7 @@ function Dashboard() {
       </ul>
 
       <Botoes>
-        <button type="submit">Cadastrar Transação</button>
+        <button type="submit"><Link to="/create">Cadastrar Transação</Link></button>
       </Botoes>
     </Container>
   );
