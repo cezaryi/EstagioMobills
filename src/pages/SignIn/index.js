@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import firebase from '../../config/config';
 
 import logo from '../../assets/logo.svg';
@@ -32,9 +32,7 @@ export default class App extends Component{
       }
     })
     
-    window.localStorage.setItem('test', true);
     e.preventDefault();
-    
   }
 
   sair(){
